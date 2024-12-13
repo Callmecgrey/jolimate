@@ -11,9 +11,9 @@ jolimate/
 │   │   ├── [slug]/
 │   │   │   └── page.tsx
 │   │   └── page.tsx
-│   ├── contact/
+│   ├── help/
 │   │   └── page.tsx
-│   ├── dashboard/
+│   ├── home/
 │   │   ├── layout.tsx
 │   │   └── page.tsx
 │   └── 

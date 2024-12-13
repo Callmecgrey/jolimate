@@ -37,18 +37,18 @@ export function Hero() {
           <div className="relative h-[500px]">
             {/* First Image */}
             <Image
-              src="/images/hero-image.png" // Corrected Path
+              src="/images/hero-image.png"
               alt="App Screenshot 1"
-              fill // Updated Prop
-              className="object-cover transform rotate-30 z-10" // Added z-10
+              fill 
+              className="object-cover transform rotate-30 z-10"
               priority
             />
             
             {/* Second Image */}
             <Image
-              src="/images/hero-image-2.png" // Corrected Path
+              src="/images/hero-image-2.png" 
               alt="App Screenshot 2"
-              fill // Updated Prop
+              fill 
               className="object-cover transform -rotate-30 absolute top-4 left-4 z-20" // Added z-20
               priority
             />
