@@ -1,6 +1,6 @@
 // components/footer.tsx
 import Link from "next/link";
-import { Instagram, Linkedin, Facebook, Github } from 'lucide-react';
+import { Instagram, Linkedin, Facebook } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -29,9 +29,6 @@ export function Footer() {
           </Link>
           <Link href="#" className="text-muted-foreground hover:text-foreground">
             <Instagram className="h-5 w-5" />
-          </Link>
-          <Link href="#" className="text-muted-foreground hover:text-foreground">
-            <Github className="h-5 w-5" />
           </Link>
         </div>
       </div>
