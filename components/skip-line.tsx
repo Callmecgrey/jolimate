@@ -8,12 +8,12 @@ export function SkipLine() {
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-4xl font-bold leading-tight lg:text-5xl">
+            <h2 className="text-5xl font-bold leading-tight lg:text-5xl">
               Skip the
               <br />
               line
             </h2>
-            <p className="text-lg opacity-90">
+            <p className="text-lg opacity-90 p-0">
               Find those closer to you in spotlight and maps.
             </p>
             <p className="text-lg opacity-90">

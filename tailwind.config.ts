@@ -12,11 +12,11 @@ const config: Config = {
   ],
   theme: {
     container: {
-      center: true, // Centers the container
+      center: true,
       padding: {
-        DEFAULT: '1rem', // Default padding
-        sm: '2rem',      // Padding for small screens
-        lg: '4rem',      // Padding for large screens
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
         xl: '5rem',
         '2xl': '6rem',
       },

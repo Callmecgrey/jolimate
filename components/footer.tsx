@@ -11,13 +11,13 @@ export function Footer() {
         </p>
         <div className="flex gap-8">
           <Link href="#" className="text-sm text-muted-foreground hover:underline">
-            PRIVACY POLICY
+            Privacy Policy
           </Link>
           <Link href="#" className="text-sm text-muted-foreground hover:underline">
-            COOKIE POLICY
+            Cookie Policy
           </Link>
           <Link href="#" className="text-sm text-muted-foreground hover:underline">
-            TERMS OF USE
+            Terms of Use
           </Link>
         </div>
         <div className="flex gap-4">
