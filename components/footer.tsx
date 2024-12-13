@@ -1,5 +1,6 @@
-import Link from "next/link"
-import { Instagram, Linkedin, Facebook, Github } from 'lucide-react'
+// components/footer.tsx
+import Link from "next/link";
+import { Instagram, Linkedin, Facebook, Github } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -35,5 +36,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

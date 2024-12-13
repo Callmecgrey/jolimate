@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
+// components/stay-in-control.tsx
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export function StayInControl() {
   return (
@@ -30,5 +31,5 @@ export function StayInControl() {
         </div>
       </div>
     </section>
-  )
+  );
 }

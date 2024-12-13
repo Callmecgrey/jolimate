@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
+// components/skip-line.tsx
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export function SkipLine() {
   return (
@@ -33,5 +34,5 @@ export function SkipLine() {
         </div>
       </div>
     </section>
-  )
+  );
 }

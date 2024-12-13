@@ -19,12 +19,12 @@ jolimate/
 │   └── 
 ├── components/
 │   ├── ui/
-│   │   ├── Footer.tsx
-│   │   ├── Hero.tsx
-│   │   ├── HowItWorks.tsx
-│   │   ├── Navbar.tsx
-│   │   ├── SkipLine.tsx
-│   │   └── StayInControl.tsx
+│   ├── Footer.tsx
+│   ├── Hero.tsx
+│   ├── HowItWorks.tsx
+│   ├── Navbar.tsx
+│   ├── SkipLine.tsx
+│   └── StayInControl.tsx
 ├── hooks/
 │   ├── useMobile.tsx
 │   └── useToast.tsx
@@ -47,5 +47,4 @@ jolimate/
 ├── README.md
 ├── tailwind.config.ts
 └── tsconfig.json
-
 ```

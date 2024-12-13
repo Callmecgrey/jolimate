@@ -1,4 +1,5 @@
-import Image from "next/image"
+// components/hero.tsx
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -31,5 +32,5 @@ export function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }

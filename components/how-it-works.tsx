@@ -1,4 +1,5 @@
-import Image from "next/image"
+// components/how-it-works.tsx
+import Image from "next/image";
 
 const steps = [
   {
@@ -16,7 +17,7 @@ const steps = [
     title: "Connect with Individuals",
     description: "Break the ice and connect with like-minded individuals and build meaningful connections in a comfortable and secure environment."
   }
-]
+];
 
 export function HowItWorks() {
   return (
@@ -46,5 +47,5 @@ export function HowItWorks() {
         </div>
       </div>
     </section>
-  )
+  );
 }
