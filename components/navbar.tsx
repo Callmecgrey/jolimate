@@ -59,15 +59,15 @@ export function Navbar() {
         <NavigationMenu>
           <NavigationMenuList className="hidden md:flex gap-6">
             <NavigationMenuItem>
-              <Link href="#" legacyBehavior passHref>
-                <NavigationMenuLink className="text-base font-medium">
+              <Link href="/ads" legacyBehavior passHref>
+                <NavigationMenuLink className="text-base font-medium hover:text-purple-700">
                   Ads Space
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="#" legacyBehavior passHref>
-                <NavigationMenuLink className="text-base font-medium">
+              <Link href="/top-up" legacyBehavior passHref>
+                <NavigationMenuLink className="text-base font-medium hover:text-purple-700">
                   Top-Up
                 </NavigationMenuLink>
               </Link>
@@ -77,7 +77,7 @@ export function Navbar() {
             <NavigationMenuItem>
               <DropdownMenu.Root>
                 <DropdownMenu.Trigger asChild>
-                  <button className="flex items-center text-base font-medium focus:outline-none">
+                  <button className="flex items-center text-base font-medium hover:text-purple-700 focus:outline-none">
                     Resources <ChevronDown className="ml-1 h-4 w-4" />
                   </button>
                 </DropdownMenu.Trigger>
@@ -86,7 +86,7 @@ export function Navbar() {
                   sideOffset={5}
                 >
                   <DropdownMenu.Item>
-                    <Link href="/about-us" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                    <Link href="/about" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
                       About Us
                     </Link>
                   </DropdownMenu.Item>
@@ -96,7 +96,7 @@ export function Navbar() {
                     </Link>
                   </DropdownMenu.Item>
                   <DropdownMenu.Item>
-                    <Link href="/help-center" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                    <Link href="/help" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
                       Help Center
                     </Link>
                   </DropdownMenu.Item>
@@ -131,11 +131,15 @@ export function Navbar() {
         <nav className="md:hidden bg-white/95 backdrop-blur-md border-t">
           <ul className="flex flex-col items-start gap-4 py-4 px-6">
             <li className="w-full">
-              <Link href="#" className="text-base font-medium hover:underline" onClick={() => setIsOpen(false)}>
+              <Link href="/ads-space" className="text-base font-medium hover:underline" onClick={() => setIsOpen(false)}>
+                Ads Space
+              </Link>
+            </li>
+            <li className="w-full">
+              <Link href="/top-up" className="text-base font-medium hover:underline" onClick={() => setIsOpen(false)}>
                 Top-Up
               </Link>
             </li>
-            
             {/* Mobile Resources Expandable Menu */}
             <li className="w-full">
               <button
@@ -148,8 +152,8 @@ export function Navbar() {
               {isResourcesOpen && (
                 <ul className="ml-4 mt-2 flex flex-col gap-2">
                   <li>
-                    <Link href="/help-center" className="text-sm font-medium hover:underline" onClick={() => setIsOpen(false)}>
-                      Help Center
+                    <Link href="/about" className="text-sm font-medium hover:underline" onClick={() => setIsOpen(false)}>
+                      About Us
                     </Link>
                   </li>
                   <li>
@@ -158,20 +162,13 @@ export function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about-us" className="text-sm font-medium hover:underline" onClick={() => setIsOpen(false)}>
-                      About Us
+                    <Link href="/help" className="text-sm font-medium hover:underline" onClick={() => setIsOpen(false)}>
+                      Help Center
                     </Link>
                   </li>
                 </ul>
               )}
             </li>
-            
-            <li className="w-full">
-              <Link href="#" className="text-base font-medium hover:underline" onClick={() => setIsOpen(false)}>
-                Ads Space
-              </Link>
-            </li>
-
             {/* "Download App" Btn inside Mobile Menu */}
             <li className="w-full">
               <Button className="bg-purple-600 hover:bg-purple-700 w-full" onClick={() => setIsOpen(false)}>
