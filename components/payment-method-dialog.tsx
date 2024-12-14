@@ -28,7 +28,7 @@ export function PaymentMethodDialog({
         <div className="grid gap-4 py-4">
           <div className="flex items-center justify-center">
             <Image
-              src="/placeholder.svg"
+              src="https://icons8.com/icon/CaSfJLdM4LTY/paypal"
               alt="PayPal"
               width={120}
               height={40}
