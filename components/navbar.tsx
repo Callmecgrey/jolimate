@@ -154,7 +154,7 @@ export function Navbar() {
                 className="text-base font-medium hover:underline"
                 onClick={() => setIsOpen(false)}
               >
-                Top-Up
+                Top Up
               </Link>
             </li>
             {/* Mobile Resources Expandable Menu */}
