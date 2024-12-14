@@ -23,7 +23,7 @@ export function SkipLine() {
               Download App
             </Button>
           </div>
-          <div className="relative h-[600px]">
+          <div className="relative h-[400px]">
             <Image
               src="/placeholder.svg"
               alt="App Interface"

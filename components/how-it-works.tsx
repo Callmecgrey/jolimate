@@ -23,7 +23,7 @@ export function HowItWorks() {
   return (
     <section className="py-24">
       <div className="container">
-        <h2 className="text-3xl font-bold text-center mb-16">How it works</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">How it works</h2>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             {steps.map((step) => (
@@ -38,7 +38,7 @@ export function HowItWorks() {
               </div>
             ))}
           </div>
-          <div className="relative h-[600px]">
+          <div className="relative h-[400px]">
             {/* You can add an image or any other content here */}
             {/* Example:
             <Image src="/path-to-image.jpg" alt="How it works" fill className="object-cover" />

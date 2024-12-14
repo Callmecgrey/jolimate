@@ -24,7 +24,7 @@ export function TopUpForm() {
 
   return (
     <div className="flex items-center justify-center h-full px-4 py-8">
-      <div className="w-full max-w-6xl bg-white shadow-md rounded-lg overflow-hidden flex flex-col md:flex-row">
+      <div className="w-full max-w-6xl rounded-lg overflow-hidden flex flex-col md:flex-row">
         {/* Form Section */}
         <div className="w-full md:w-1/2 p-8">
           <div className="mb-6">
@@ -103,7 +103,7 @@ export function TopUpForm() {
         </div>
 
         {/* Image Section */}
-        <div className="w-full md:w-1/2 relative h-64 md:h-auto">
+        <div className="w-full md:w-1/2 relative h-64 md:h-auto hidden md:block">
           <Image
             src="/images/top-up-image.svg"
             alt="Top-Up Illustration"

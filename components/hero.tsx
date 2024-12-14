@@ -34,7 +34,7 @@ export function Hero() {
           </div>
           
           {/* Image Area */}
-          <div className="relative h-[500px]">
+          <div className="relative h-[600px]">
             {/* First Image */}
             <Image
               src="/images/hero-image.png"

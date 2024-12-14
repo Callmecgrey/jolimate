@@ -141,7 +141,7 @@ export function Navbar() {
           <ul className="container mx-auto px-4 flex flex-col items-start gap-4 py-4">
             <li className="w-full">
               <Link
-                href="/ads-space"
+                href="/ads"
                 className="text-base font-medium hover:underline"
                 onClick={() => setIsOpen(false)}
               >
