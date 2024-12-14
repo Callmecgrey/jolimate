@@ -13,12 +13,11 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Remove unoptimized: true if you want to use remotePatterns
   images: {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'b33ac20ad205c676f9dba33a1801d8a9.eu.r2.cloudflarestorage.com',
+        hostname: 'pub-ea8248bf64c240949901e0d6b0c81e53.r2.dev',
         pathname: '/**',
       },
     ],

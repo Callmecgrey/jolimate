@@ -21,7 +21,7 @@ export function Hero() {
             <p className="text-xl text-muted-foreground max-w-[600px]">
               The ultimate dating app that goes beyond the swipe
             </p>
-            
+
             {/* Buttons */}
             <div className="flex space-x-4">
               <Button variant="outline" className="px-6 py-3">
@@ -32,21 +32,21 @@ export function Hero() {
               </Button>
             </div>
           </div>
-          
+
           {/* Image Area */}
           <div className="relative h-[600px]">
             {/* First Image */}
             <Image
-              src="https://b33ac20ad205c676f9dba33a1801d8a9.eu.r2.cloudflarestorage.com/jolimate/hero-image.png"
+              src="https://pub-ea8248bf64c240949901e0d6b0c81e53.r2.dev/jolimate/hero-image.png"
               alt="App Screenshot 1"
               fill
               className="object-cover transform rotate-30 z-10"
               priority
             />
-            
+
             {/* Second Image */}
             <Image
-              src="https://b33ac20ad205c676f9dba33a1801d8a9.eu.r2.cloudflarestorage.com/jolimate/hero-image-2.png"
+              src="https://pub-ea8248bf64c240949901e0d6b0c81e53.r2.dev/jolimate/hero-image-2.png"
               alt="App Screenshot 2"
               fill
               className="object-cover transform -rotate-30 absolute top-4 left-4 z-20"
