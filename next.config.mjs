@@ -13,8 +13,15 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // Remove unoptimized: true if you want to use remotePatterns
   images: {
-    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'b33ac20ad205c676f9dba33a1801d8a9.eu.r2.cloudflarestorage.com',
+        pathname: '/**',
+      },
+    ],
   },
   experimental: {
     webpackBuildWorker: true,

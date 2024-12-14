@@ -37,19 +37,19 @@ export function Hero() {
           <div className="relative h-[600px]">
             {/* First Image */}
             <Image
-              src="/images/hero-image.png"
+              src="https://b33ac20ad205c676f9dba33a1801d8a9.eu.r2.cloudflarestorage.com/jolimate/hero-image.png"
               alt="App Screenshot 1"
-              fill 
+              fill
               className="object-cover transform rotate-30 z-10"
               priority
             />
             
             {/* Second Image */}
             <Image
-              src="/images/hero-image-2.png" 
+              src="https://b33ac20ad205c676f9dba33a1801d8a9.eu.r2.cloudflarestorage.com/jolimate/hero-image-2.png"
               alt="App Screenshot 2"
-              fill 
-              className="object-cover transform -rotate-30 absolute top-4 left-4 z-20" // Added z-20
+              fill
+              className="object-cover transform -rotate-30 absolute top-4 left-4 z-20"
               priority
             />
           </div>
