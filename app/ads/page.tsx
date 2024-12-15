@@ -37,7 +37,7 @@ export default function AdsSpacePage() {
           {/* Image Section */}
           <div className="relative aspect-square w-full max-w-xl rounded-lg bg-gradient-to-br from-purple-100 to-purple-50 md:aspect-video">
             <Image
-              src="/images/ads-image.svg"
+              src="https://pub-ea8248bf64c240949901e0d6b0c81e53.r2.dev/ads-space.png"
               alt="Ads Illustration"
               fill
               className="rounded-lg object-cover"
