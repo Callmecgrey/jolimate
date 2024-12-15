@@ -105,18 +105,11 @@ export function TopUpForm() {
         {/* Image Section */}
         <div className="w-full md:w-1/2 relative h-64 md:h-auto hidden md:block">
           <Image
-            src="/images/top-up-image.svg"
+            src="https://pub-ea8248bf64c240949901e0d6b0c81e53.r2.dev/top-up.png"
             alt="Top-Up Illustration"
             layout="fill"
             objectFit="cover"
             className="hidden md:block"
-          />
-          <Image
-            src="/images/placeholder.svg"
-            alt="Top-Up Illustration Mobile"
-            layout="fill"
-            objectFit="cover"
-            className="block md:hidden"
           />
         </div>
 
