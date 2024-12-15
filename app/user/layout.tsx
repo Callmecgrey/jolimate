@@ -18,7 +18,7 @@ export default function UserLayout({ children }: UserLayoutProps) {
         <Sidebar className="hidden md:block" />
 
         {/* Main Content */}
-        <main className="flex-grow bg-gray-100 p-4 md:p-8 flex items-center justify-center">
+        <main className="flex-grow bg-gray-100 p-4 md:p-8 overflow-auto">
           {children}
         </main>
       </div>
