@@ -34,22 +34,14 @@ export function Hero() {
           </div>
 
           {/* Image Area */}
-          <div className="relative h-[600px]">
-            {/* First Image */}
+          <div className="relative h-[600px] w-full flex justify-center items-center">
+            {/* Single Image - No Tilt */}
             <Image
-              src="https://pub-ea8248bf64c240949901e0d6b0c81e53.r2.dev/jolimate/hero-image.png"
-              alt="App Screenshot 1"
-              fill
-              className="object-cover transform rotate-30 z-10"
-              priority
-            />
-
-            {/* Second Image */}
-            <Image
-              src="https://pub-ea8248bf64c240949901e0d6b0c81e53.r2.dev/jolimate/hero-image-2.png"
-              alt="App Screenshot 2"
-              fill
-              className="object-cover transform -rotate-30 absolute top-4 left-4 z-20"
+              src="https://pub-ea8248bf64c240949901e0d6b0c81e53.r2.dev/hero-img.png"
+              alt="App Screenshot"
+              width={400}
+              height={500}
+              className="object-cover transform  z-10"
               priority
             />
           </div>
