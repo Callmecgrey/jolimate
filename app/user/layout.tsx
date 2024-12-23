@@ -11,14 +11,14 @@ interface UserLayoutProps {
 
 export default function UserLayout({ children }: UserLayoutProps) {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen overflow-hidden">
       {/* Main Content Area */}
       <div className="flex flex-grow">
         {/* Sidebar for Desktop */}
         <Sidebar className="hidden md:block" />
 
         {/* Main Content */}
-        <main className="flex-grow bg-gray-100 p-4 md:p-8 overflow-auto">
+        <main className="flex-grow bg-gray-100 p-4 md:p-8 overflow-y-auto">
           {children}
         </main>
       </div>

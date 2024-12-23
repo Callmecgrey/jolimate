@@ -28,7 +28,7 @@ export function Sidebar({ className }: SidebarProps) {
   const pathname = usePathname();
 
   return (
-    <aside className={classNames("w-64 bg-gray-800 text-white h-full", className)}>
+    <aside className={classNames("w-64 bg-gray-800 text-white h-full flex-shrink-0", className)}>
       <div className="p-6 text-2xl font-bold">JoliMate</div>
       <nav className="mt-10">
         {navItems.map((item) => (

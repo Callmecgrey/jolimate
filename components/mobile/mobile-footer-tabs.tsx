@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Compass, MapPin, MessageCircle, User, LogOut } from "lucide-react";
+import { Compass, MapPin, MessageCircle, User } from "lucide-react";
 import classNames from "classnames";
 
 interface FooterTabItem {
